@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Layout from '../../components/Layout';
+import Layout from '../components/Layout';
 import Link from 'next/link';
-import { courseData } from '../../lib/courseData';
+import { courseData } from '../lib/courseData';
 
 const FlixPage = () => {
   const [filter, setFilter] = useState('');
